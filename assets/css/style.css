@@ -18,6 +18,13 @@ body {
   grid-template-rows: 32% 39% 13% 11% 5%;
 }
 
+@media only screen and (max-width: 600px) {
+  .img-responsive {
+    width: 100%;
+    height: auto;
+  }
+}
+
 #board {
   position: relative;
 }
@@ -118,14 +125,14 @@ button:active {
   background-position: center;
   background-size: 40%;
   background-repeat: no-repeat;
-  background-image: url('https://cdn-icons-png.flaticon.com/512/75/75519.png');
+  background-image: url('../images/x.png');
 }
 
 .o {
   background-position: center;
   background-size: 45%;
   background-repeat: no-repeat;
-  background-image: url('https://cdn-icons-png.flaticon.com/512/25/25477.png');
+  background-image: url('../images/o.png');
 }
 
 #overlay-svg {
