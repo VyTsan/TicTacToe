@@ -38,7 +38,7 @@ let svgArr = [
   <circle cx="150" cy="270" r="4.5" fill="red" />
   </svg> `,
   `<svg id="overlay-svg">
-  <line x1="50" y1="30" x2="250" y2="270" style="stroke:red;stroke-width:9"/>
+  <line x1="250" y1="30" x2="250" y2="270" style="stroke:red;stroke-width:9"/>
   <circle cx="250" cy="30" r="4.5" fill="red" />
   <circle cx="250" cy="270" r="4.5" fill="red" />
   </svg> `,
